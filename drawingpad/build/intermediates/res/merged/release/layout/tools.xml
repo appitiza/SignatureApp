@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:elevation="6dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/selector"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_padding"
+                android:src="@drawable/ic_rgb" />
+
+            <net.appitiza.android.drawingpad.colorpicker.LinearColorPicker
+                android:id="@+id/lcp_color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:orientation="horizontal"
+                app:selectedColorIndex="3" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_pen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector"
+            android:layout_gravity="center"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_marker" />
+
+        <ImageView
+            android:id="@+id/iv_eraser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector"
+            android:layout_gravity="center"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_eraser" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginStart="@dimen/default_margin"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:background="@drawable/selector"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_padding"
+                android:src="@drawable/ic_text_width" />
+
+            <LinearLayout
+                android:id="@+id/ll_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/iv_size_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:background="@drawable/selector"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/semi_default_padding"
+                    android:src="@drawable/ic_radio_off_button_1" />
+
+                <ImageView
+                    android:id="@+id/iv_size_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:background="@drawable/selector"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/semi_default_padding"
+                    android:src="@drawable/ic_radio_off_button_2" />
+
+                <ImageView
+                    android:id="@+id/iv_size_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/app_name"
+                    android:background="@drawable/selector"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/semi_default_padding"
+                    android:src="@drawable/ic_radio_off_button_3" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/selector"
+            android:layout_gravity="center_vertical|end"
+            android:padding="@dimen/default_padding"
+            android:src="@drawable/ic_three_circling_arrows" />
+
+    </LinearLayout>
+</merge>

@@ -1,0 +1,112 @@
+[
+    {
+        "outputFile": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 45,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 50,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 50,
+                        "endOffset": 192
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mdpi-v4\\values-mdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 45,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 45,
+                        "endOffset": 141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 50,
+                    "endOffset": 192
+                },
+                "from": {
+                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-mdpi-v4\\values-mdpi-v4.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 146,
+                        "endColumn": 50,
+                        "endOffset": 192
+                    }
+                }
+            }
+        ]
+    }
+]

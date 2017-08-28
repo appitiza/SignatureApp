@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LineColorPicker"><attr format="enum" name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr><attr format="reference" name="colors"/><attr format="integer" name="selectedColorIndex"/></declare-styleable>
+    <declare-styleable name="Signatureview"><attr format="dimension" name="penMinWidth"/><attr format="dimension" name="penMaxWidth"/><attr format="color" name="penColor"/><attr format="float" name="velocityFilterWeight"/><attr format="boolean" name="clearOnDoubleClick"/></declare-styleable>
+    <dimen name="default_margin">10dp</dimen>
+    <dimen name="default_padding">10dp</dimen>
+    <dimen name="semi_default_padding">5dp</dimen>
+    <string name="app_name">signatureview</string>
+</resources>

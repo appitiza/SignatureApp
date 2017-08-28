@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\OpenCv\SignatureApp\drawingpad\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d91cb68a588eccc8a8feb98128d5a652f65b7ba0">
+        <dex dex="E:\OpenCv\SignatureApp\app\build\intermediates\pre-dexed\debug\classes_16e64e91e5ada24511d89fbb31700442f9539fa3.jar" />
+    </item>
+
+</items>
