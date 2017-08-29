@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="net.appitiza.android.app.signatureapp.MainActivity">
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/iv_sign"
@@ -13,10 +13,16 @@
         android:layout_height="0dp"
         android:layout_weight="1" />
 
-    <net.appitiza.android.drawingpad.drawpad.views.DrawingView
+    <net.appitiza.android.drawingpad.drawpad.views.SignatureView
         android:id="@+id/signature_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        attr:penMinWidth = "5dp"
+        attr:penMaxWidth = "9dp"
+        attr:penColor = "@android:color/holo_blue_dark"
+        attr:clearOnDoubleTap = "true"
+        attr:speedimpressionWeight=".1"
+        />
 
 </LinearLayout>
