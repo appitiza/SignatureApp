@@ -71,7 +71,7 @@ int attr buttonTint 0x7f01009f
 int attr buttonTintMode 0x7f0100a0
 int attr checkboxStyle 0x7f010092
 int attr checkedTextViewStyle 0x7f010093
-int attr clearOnDoubleClick 0x7f0100cc
+int attr clearOnDoubleTap 0x7f0100cc
 int attr closeIcon 0x7f0100bf
 int attr closeItemLayout 0x7f01001e
 int attr collapseContentDescription 0x7f0100e3
@@ -183,6 +183,7 @@ int attr showDividers 0x7f0100ad
 int attr showText 0x7f0100d7
 int attr showTitle 0x7f010026
 int attr singleChoiceItemLayout 0x7f010024
+int attr speedimpressionWeight 0x7f0100cb
 int attr spinBars 0x7f0100a2
 int attr spinnerDropDownItemStyle 0x7f01005a
 int attr spinnerStyle 0x7f01009a
@@ -234,7 +235,6 @@ int attr tooltipText 0x7f0100b4
 int attr track 0x7f0100cf
 int attr trackTint 0x7f0100d0
 int attr trackTintMode 0x7f0100d1
-int attr velocityFilterWeight 0x7f0100cb
 int attr voiceIcon 0x7f0100c3
 int attr windowActionBar 0x7f01002c
 int attr windowActionBarOverlay 0x7f01002e
@@ -1397,11 +1397,11 @@ int styleable SearchView_submitBackground 16
 int styleable SearchView_suggestionRowLayout 14
 int styleable SearchView_voiceIcon 12
 int[] styleable Signatureview { 0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc }
-int styleable Signatureview_clearOnDoubleClick 4
+int styleable Signatureview_clearOnDoubleTap 4
 int styleable Signatureview_penColor 2
 int styleable Signatureview_penMaxWidth 1
 int styleable Signatureview_penMinWidth 0
-int styleable Signatureview_velocityFilterWeight 3
+int styleable Signatureview_speedimpressionWeight 3
 int[] styleable Spinner { 0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 0x7f01001d }
 int styleable Spinner_android_dropDownWidth 3
 int styleable Spinner_android_entries 0

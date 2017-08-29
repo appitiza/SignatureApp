@@ -73,8 +73,8 @@ public class SignatureView extends View {
             mMinWidth = a.getDimensionPixelSize(R.styleable.Signatureview_penMinWidth, convertDpToPx(DEFAULT_ATTR_PEN_MIN_WIDTH_PX));
             mMaxWidth = a.getDimensionPixelSize(R.styleable.Signatureview_penMaxWidth, convertDpToPx(DEFAULT_ATTR_PEN_MAX_WIDTH_PX));
             mPaint.setColor(a.getColor(R.styleable.Signatureview_penColor, DEFAULT_ATTR_PEN_COLOR));
-            mVelocityFilterWeight = a.getFloat(R.styleable.Signatureview_velocityFilterWeight, DEFAULT_ATTR_VELOCITY_FILTER_WEIGHT);
-            mClearOnDoubleClick = a.getBoolean(R.styleable.Signatureview_clearOnDoubleClick, DEFAULT_ATTR_CLEAR_ON_DOUBLE_CLICK);
+            mVelocityFilterWeight = a.getFloat(R.styleable.Signatureview_speedimpressionWeight, DEFAULT_ATTR_VELOCITY_FILTER_WEIGHT);
+            mClearOnDoubleClick = a.getBoolean(R.styleable.Signatureview_clearOnDoubleTap, DEFAULT_ATTR_CLEAR_ON_DOUBLE_CLICK);
         } finally {
             a.recycle();
         }

@@ -19,13 +19,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="net.appitiza.android.app.signatureapp.MainActivity" >
+        <activity android:name="net.appitiza.android.app.signatureapp.SelectOptionActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="net.appitiza.android.app.signatureapp.SignatureActivity" />
+        <activity android:name="net.appitiza.android.app.signatureapp.DrawingPadActivity" />
     </application>
 
 </manifest>

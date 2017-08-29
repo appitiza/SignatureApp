@@ -1,43 +1,19 @@
 [
     {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_marker.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_marker.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_3.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_on_button_3.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_off_button_1.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_1.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_eraser.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_eraser.xml"
     },
     {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_text_width.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_text_width.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_1.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_on_button_1.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_rgb.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_rgb.xml"
     },
     {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_off_button_2.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_2.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_text_width.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_text_width.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_rgb.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_rgb.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_2.xml",
@@ -46,14 +22,6 @@
     {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_off_button_1.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_1.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_2.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_on_button_2.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_three_circling_arrows.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_three_circling_arrows.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_1.xml",
@@ -68,23 +36,11 @@
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_3.xml"
     },
     {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_eraser.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_eraser.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_off_button_2.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_2.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_marker.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_marker.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_off_button_3.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_off_button_3.xml"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_radio_on_button_3.xml",
-        "source": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\ic_radio_on_button_3.xml"
     }
 ]

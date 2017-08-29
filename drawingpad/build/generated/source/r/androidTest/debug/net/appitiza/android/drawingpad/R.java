@@ -83,7 +83,7 @@ public final class R {
         public static final int buttonTintMode = 0x7f0100a0;
         public static final int checkboxStyle = 0x7f010092;
         public static final int checkedTextViewStyle = 0x7f010093;
-        public static final int clearOnDoubleClick = 0x7f0100cc;
+        public static final int clearOnDoubleTap = 0x7f0100cc;
         public static final int closeIcon = 0x7f0100bf;
         public static final int closeItemLayout = 0x7f01001e;
         public static final int collapseContentDescription = 0x7f0100e3;
@@ -195,6 +195,7 @@ public final class R {
         public static final int showText = 0x7f0100d7;
         public static final int showTitle = 0x7f010026;
         public static final int singleChoiceItemLayout = 0x7f010024;
+        public static final int speedimpressionWeight = 0x7f0100cb;
         public static final int spinBars = 0x7f0100a2;
         public static final int spinnerDropDownItemStyle = 0x7f01005a;
         public static final int spinnerStyle = 0x7f01009a;
@@ -246,7 +247,6 @@ public final class R {
         public static final int track = 0x7f0100cf;
         public static final int trackTint = 0x7f0100d0;
         public static final int trackTintMode = 0x7f0100d1;
-        public static final int velocityFilterWeight = 0x7f0100cb;
         public static final int voiceIcon = 0x7f0100c3;
         public static final int windowActionBar = 0x7f01002c;
         public static final int windowActionBarOverlay = 0x7f01002e;
@@ -1429,11 +1429,11 @@ public final class R {
         public static final int SearchView_suggestionRowLayout = 14;
         public static final int SearchView_voiceIcon = 12;
         public static final int[] Signatureview = { 0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb, 0x7f0100cc };
-        public static final int Signatureview_clearOnDoubleClick = 4;
+        public static final int Signatureview_clearOnDoubleTap = 4;
         public static final int Signatureview_penColor = 2;
         public static final int Signatureview_penMaxWidth = 1;
         public static final int Signatureview_penMinWidth = 0;
-        public static final int Signatureview_velocityFilterWeight = 3;
+        public static final int Signatureview_speedimpressionWeight = 3;
         public static final int[] Spinner = { 0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 0x7f01001d };
         public static final int Spinner_android_dropDownWidth = 3;
         public static final int Spinner_android_entries = 0;

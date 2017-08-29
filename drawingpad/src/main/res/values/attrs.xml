@@ -4,8 +4,8 @@
         <attr name="penMinWidth" format="dimension" />
         <attr name="penMaxWidth" format="dimension" />
         <attr name="penColor" format="color" />
-        <attr name="velocityFilterWeight" format="float" />
-        <attr name="clearOnDoubleClick" format="boolean" />
+        <attr name="speedimpressionWeight" format="float" />
+        <attr name="clearOnDoubleTap" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="LineColorPicker">

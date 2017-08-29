@@ -4,14 +4,6 @@
         "source": "E:\\OpenCv\\SignatureApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
-        "source": "D:\\projects\\SignatureApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
-    },
-    {
-        "merged": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
-        "source": "D:\\projects\\SignatureApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher_round.png",
         "source": "E:\\OpenCv\\SignatureApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     }

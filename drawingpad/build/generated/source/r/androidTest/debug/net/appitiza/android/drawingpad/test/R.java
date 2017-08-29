@@ -375,7 +375,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int clearOnDoubleClick=0x7f0100cc;
+        public static final int clearOnDoubleTap=0x7f0100cc;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1155,6 +1155,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int singleChoiceItemLayout=0x7f010024;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int speedimpressionWeight=0x7f0100cb;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1506,14 +1514,6 @@ containing a value of this type.
 </table>
          */
         public static final int trackTintMode=0x7f0100d1;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int velocityFilterWeight=0x7f0100cb;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -6280,24 +6280,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Signatureview_clearOnDoubleClick net.appitiza.android.drawingpad.test:clearOnDoubleClick}</code></td><td></td></tr>
+           <tr><td><code>{@link #Signatureview_clearOnDoubleTap net.appitiza.android.drawingpad.test:clearOnDoubleTap}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penColor net.appitiza.android.drawingpad.test:penColor}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penMaxWidth net.appitiza.android.drawingpad.test:penMaxWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penMinWidth net.appitiza.android.drawingpad.test:penMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Signatureview_velocityFilterWeight net.appitiza.android.drawingpad.test:velocityFilterWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Signatureview_speedimpressionWeight net.appitiza.android.drawingpad.test:speedimpressionWeight}</code></td><td></td></tr>
            </table>
-           @see #Signatureview_clearOnDoubleClick
+           @see #Signatureview_clearOnDoubleTap
            @see #Signatureview_penColor
            @see #Signatureview_penMaxWidth
            @see #Signatureview_penMinWidth
-           @see #Signatureview_velocityFilterWeight
+           @see #Signatureview_speedimpressionWeight
          */
         public static final int[] Signatureview = {
             0x7f0100c8, 0x7f0100c9, 0x7f0100ca, 0x7f0100cb,
             0x7f0100cc
         };
         /**
-          <p>This symbol is the offset where the {@link net.appitiza.android.drawingpad.test.R.attr#clearOnDoubleClick}
+          <p>This symbol is the offset where the {@link net.appitiza.android.drawingpad.test.R.attr#clearOnDoubleTap}
           attribute's value can be found in the {@link #Signatureview} array.
 
 
@@ -6307,9 +6307,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name net.appitiza.android.drawingpad.test:clearOnDoubleClick
+          @attr name net.appitiza.android.drawingpad.test:clearOnDoubleTap
         */
-        public static final int Signatureview_clearOnDoubleClick = 4;
+        public static final int Signatureview_clearOnDoubleTap = 4;
         /**
           <p>This symbol is the offset where the {@link net.appitiza.android.drawingpad.test.R.attr#penColor}
           attribute's value can be found in the {@link #Signatureview} array.
@@ -6358,7 +6358,7 @@ containing a value of this type.
         */
         public static final int Signatureview_penMinWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link net.appitiza.android.drawingpad.test.R.attr#velocityFilterWeight}
+          <p>This symbol is the offset where the {@link net.appitiza.android.drawingpad.test.R.attr#speedimpressionWeight}
           attribute's value can be found in the {@link #Signatureview} array.
 
 
@@ -6368,9 +6368,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name net.appitiza.android.drawingpad.test:velocityFilterWeight
+          @attr name net.appitiza.android.drawingpad.test:speedimpressionWeight
         */
-        public static final int Signatureview_velocityFilterWeight = 3;
+        public static final int Signatureview_speedimpressionWeight = 3;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>

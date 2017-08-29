@@ -11,7 +11,14 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml"
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 45,
+                        "endOffset": 96
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml"
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 101,
+                        "endColumn": 46,
+                        "endOffset": 143
+                    }
                 }
             },
             {
@@ -55,82 +69,7 @@
                     "endOffset": 471
                 },
                 "from": {
-                    "file": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml"
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\projects\\SignatureApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 45,
-                        "endOffset": 96
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 101,
-                    "endColumn": 46,
-                    "endOffset": 143
-                },
-                "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 101,
-                        "endColumn": 46,
-                        "endOffset": 143
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 148,
-                    "endColumn": 50,
-                    "endOffset": 194
-                },
-                "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\bundles\\default\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 148,
-                        "endColumn": 50,
-                        "endOffset": 194
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 199,
-                    "endLine": 9,
-                    "endColumn": 13,
-                    "endOffset": 471
-                },
-                "from": {
-                    "file": "C:\\Users\\Android\\.android\\build-cache\\ea652609b8ad40b8f476a54f7ad591c6b21c7f0c\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -375,7 +375,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int clearOnDoubleClick=0x7f0100f8;
+        public static final int clearOnDoubleTap=0x7f0100f8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1602,6 +1602,14 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int singleChoiceItemLayout=0x7f010050;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int speedimpressionWeight=0x7f0100f7;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1953,14 +1961,6 @@ containing a value of this type.
 </table>
          */
         public static final int trackTintMode=0x7f0100fd;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int velocityFilterWeight=0x7f0100f7;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2386,7 +2386,7 @@ containing a value of this type.
         public static final int selector=0x7f02006b;
     }
     public static final class id {
-        public static final int action0=0x7f0b0066;
+        public static final int action0=0x7f0b0069;
         public static final int action_bar=0x7f0b0051;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0050;
@@ -2394,17 +2394,17 @@ containing a value of this type.
         public static final int action_bar_spinner=0x7f0b0001;
         public static final int action_bar_subtitle=0x7f0b002f;
         public static final int action_bar_title=0x7f0b002e;
-        public static final int action_container=0x7f0b0063;
+        public static final int action_container=0x7f0b0066;
         public static final int action_context_bar=0x7f0b0052;
-        public static final int action_divider=0x7f0b006a;
-        public static final int action_image=0x7f0b0064;
+        public static final int action_divider=0x7f0b006d;
+        public static final int action_image=0x7f0b0067;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b004e;
         public static final int action_mode_bar_stub=0x7f0b004d;
         public static final int action_mode_close_button=0x7f0b0030;
-        public static final int action_text=0x7f0b0065;
-        public static final int actions=0x7f0b0073;
+        public static final int action_text=0x7f0b0068;
+        public static final int actions=0x7f0b0076;
         public static final int activity_chooser_view_content=0x7f0b0031;
         public static final int add=0x7f0b001b;
         public static final int alertTitle=0x7f0b0045;
@@ -2413,11 +2413,13 @@ containing a value of this type.
         public static final int basic=0x7f0b000f;
         public static final int beginning=0x7f0b0024;
         public static final int bottom=0x7f0b002c;
+        public static final int btn_drawingpad=0x7f0b0063;
+        public static final int btn_signaturepad=0x7f0b0062;
         public static final int buttonPanel=0x7f0b0038;
-        public static final int cancel_action=0x7f0b0067;
+        public static final int cancel_action=0x7f0b006a;
         public static final int chains=0x7f0b0010;
         public static final int checkbox=0x7f0b0048;
-        public static final int chronometer=0x7f0b006f;
+        public static final int chronometer=0x7f0b0072;
         public static final int collapseActionView=0x7f0b0028;
         public static final int contentPanel=0x7f0b003b;
         public static final int custom=0x7f0b0042;
@@ -2425,51 +2427,52 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0b004f;
         public static final int default_activity_button=0x7f0b0034;
         public static final int disableHome=0x7f0b0015;
+        public static final int drawing_view=0x7f0b0061;
         public static final int edit_query=0x7f0b0053;
         public static final int end=0x7f0b0025;
-        public static final int end_padder=0x7f0b0079;
+        public static final int end_padder=0x7f0b007c;
         public static final int expand_activities_button=0x7f0b0032;
         public static final int expanded_menu=0x7f0b0047;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b0016;
         public static final int horizontal=0x7f0b0022;
         public static final int icon=0x7f0b0036;
-        public static final int icon_group=0x7f0b0074;
+        public static final int icon_group=0x7f0b0077;
         public static final int ifRoom=0x7f0b0029;
         public static final int image=0x7f0b0033;
-        public static final int info=0x7f0b0070;
-        public static final int iv_clear=0x7f0b0083;
-        public static final int iv_color=0x7f0b007a;
-        public static final int iv_eraser=0x7f0b007d;
-        public static final int iv_pen=0x7f0b007c;
+        public static final int info=0x7f0b0073;
+        public static final int iv_clear=0x7f0b0086;
+        public static final int iv_color=0x7f0b007d;
+        public static final int iv_eraser=0x7f0b0080;
+        public static final int iv_pen=0x7f0b007f;
         public static final int iv_sign=0x7f0b0060;
-        public static final int iv_size=0x7f0b007e;
-        public static final int iv_size_1=0x7f0b0080;
-        public static final int iv_size_2=0x7f0b0081;
-        public static final int iv_size_3=0x7f0b0082;
-        public static final int lcp_color=0x7f0b007b;
-        public static final int line1=0x7f0b0075;
-        public static final int line3=0x7f0b0077;
+        public static final int iv_size=0x7f0b0081;
+        public static final int iv_size_1=0x7f0b0083;
+        public static final int iv_size_2=0x7f0b0084;
+        public static final int iv_size_3=0x7f0b0085;
+        public static final int lcp_color=0x7f0b007e;
+        public static final int line1=0x7f0b0078;
+        public static final int line3=0x7f0b007a;
         public static final int listMode=0x7f0b0012;
         public static final int list_item=0x7f0b0035;
-        public static final int ll_size=0x7f0b007f;
-        public static final int media_actions=0x7f0b0069;
+        public static final int ll_size=0x7f0b0082;
+        public static final int media_actions=0x7f0b006c;
         public static final int middle=0x7f0b0026;
         public static final int multiply=0x7f0b001c;
         public static final int never=0x7f0b002a;
         public static final int none=0x7f0b0011;
         public static final int normal=0x7f0b0013;
-        public static final int notification_background=0x7f0b0072;
-        public static final int notification_main_column=0x7f0b006c;
-        public static final int notification_main_column_container=0x7f0b006b;
+        public static final int notification_background=0x7f0b0075;
+        public static final int notification_main_column=0x7f0b006f;
+        public static final int notification_main_column_container=0x7f0b006e;
         public static final int packed=0x7f0b000c;
         public static final int parent=0x7f0b0009;
         public static final int parentPanel=0x7f0b003a;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
         public static final int radio=0x7f0b004a;
-        public static final int right_icon=0x7f0b0071;
-        public static final int right_side=0x7f0b006d;
+        public static final int right_icon=0x7f0b0074;
+        public static final int right_side=0x7f0b0070;
         public static final int screen=0x7f0b001d;
         public static final int scrollIndicatorDown=0x7f0b0040;
         public static final int scrollIndicatorUp=0x7f0b003c;
@@ -2489,7 +2492,7 @@ containing a value of this type.
         public static final int showCustom=0x7f0b0017;
         public static final int showHome=0x7f0b0018;
         public static final int showTitle=0x7f0b0019;
-        public static final int signature_view=0x7f0b0061;
+        public static final int signature_view=0x7f0b0064;
         public static final int spacer=0x7f0b0039;
         public static final int split_action_bar=0x7f0b0007;
         public static final int spread=0x7f0b000a;
@@ -2497,16 +2500,16 @@ containing a value of this type.
         public static final int src_atop=0x7f0b001e;
         public static final int src_in=0x7f0b001f;
         public static final int src_over=0x7f0b0020;
-        public static final int status_bar_latest_event_content=0x7f0b0068;
+        public static final int status_bar_latest_event_content=0x7f0b006b;
         public static final int submenuarrow=0x7f0b004b;
         public static final int submit_area=0x7f0b005c;
-        public static final int sv_sign=0x7f0b0062;
+        public static final int sv_sign=0x7f0b0065;
         public static final int tabMode=0x7f0b0014;
-        public static final int text=0x7f0b0078;
-        public static final int text2=0x7f0b0076;
+        public static final int text=0x7f0b007b;
+        public static final int text2=0x7f0b0079;
         public static final int textSpacerNoButtons=0x7f0b003f;
         public static final int textSpacerNoTitle=0x7f0b003e;
-        public static final int time=0x7f0b006e;
+        public static final int time=0x7f0b0071;
         public static final int title=0x7f0b0037;
         public static final int titleDividerNoCustom=0x7f0b0046;
         public static final int title_template=0x7f0b0044;
@@ -2553,28 +2556,30 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040018;
         public static final int abc_search_view=0x7f040019;
         public static final int abc_select_dialog_material=0x7f04001a;
-        public static final int activity_main=0x7f04001b;
-        public static final int drawing_view=0x7f04001c;
-        public static final int notification_action=0x7f04001d;
-        public static final int notification_action_tombstone=0x7f04001e;
-        public static final int notification_media_action=0x7f04001f;
-        public static final int notification_media_cancel_action=0x7f040020;
-        public static final int notification_template_big_media=0x7f040021;
-        public static final int notification_template_big_media_custom=0x7f040022;
-        public static final int notification_template_big_media_narrow=0x7f040023;
-        public static final int notification_template_big_media_narrow_custom=0x7f040024;
-        public static final int notification_template_custom_big=0x7f040025;
-        public static final int notification_template_icon_group=0x7f040026;
-        public static final int notification_template_lines_media=0x7f040027;
-        public static final int notification_template_media=0x7f040028;
-        public static final int notification_template_media_custom=0x7f040029;
-        public static final int notification_template_part_chronometer=0x7f04002a;
-        public static final int notification_template_part_time=0x7f04002b;
-        public static final int select_dialog_item_material=0x7f04002c;
-        public static final int select_dialog_multichoice_material=0x7f04002d;
-        public static final int select_dialog_singlechoice_material=0x7f04002e;
-        public static final int support_simple_spinner_dropdown_item=0x7f04002f;
-        public static final int tools=0x7f040030;
+        public static final int activity_drawing_pad=0x7f04001b;
+        public static final int activity_select_option=0x7f04001c;
+        public static final int activity_signature=0x7f04001d;
+        public static final int drawing_view=0x7f04001e;
+        public static final int notification_action=0x7f04001f;
+        public static final int notification_action_tombstone=0x7f040020;
+        public static final int notification_media_action=0x7f040021;
+        public static final int notification_media_cancel_action=0x7f040022;
+        public static final int notification_template_big_media=0x7f040023;
+        public static final int notification_template_big_media_custom=0x7f040024;
+        public static final int notification_template_big_media_narrow=0x7f040025;
+        public static final int notification_template_big_media_narrow_custom=0x7f040026;
+        public static final int notification_template_custom_big=0x7f040027;
+        public static final int notification_template_icon_group=0x7f040028;
+        public static final int notification_template_lines_media=0x7f040029;
+        public static final int notification_template_media=0x7f04002a;
+        public static final int notification_template_media_custom=0x7f04002b;
+        public static final int notification_template_part_chronometer=0x7f04002c;
+        public static final int notification_template_part_time=0x7f04002d;
+        public static final int select_dialog_item_material=0x7f04002e;
+        public static final int select_dialog_multichoice_material=0x7f04002f;
+        public static final int select_dialog_singlechoice_material=0x7f040030;
+        public static final int support_simple_spinner_dropdown_item=0x7f040031;
+        public static final int tools=0x7f040032;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;
@@ -2613,7 +2618,9 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060021;
+        public static final int drawingpad=0x7f060022;
         public static final int search_menu_title=0x7f060013;
+        public static final int signaturepad=0x7f060023;
         public static final int status_bar_notification_info_overflow=0x7f060014;
     }
     public static final class style {
@@ -8595,24 +8602,24 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #Signatureview_clearOnDoubleClick net.appitiza.android.app.signatureapp:clearOnDoubleClick}</code></td><td></td></tr>
+           <tr><td><code>{@link #Signatureview_clearOnDoubleTap net.appitiza.android.app.signatureapp:clearOnDoubleTap}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penColor net.appitiza.android.app.signatureapp:penColor}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penMaxWidth net.appitiza.android.app.signatureapp:penMaxWidth}</code></td><td></td></tr>
            <tr><td><code>{@link #Signatureview_penMinWidth net.appitiza.android.app.signatureapp:penMinWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #Signatureview_velocityFilterWeight net.appitiza.android.app.signatureapp:velocityFilterWeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #Signatureview_speedimpressionWeight net.appitiza.android.app.signatureapp:speedimpressionWeight}</code></td><td></td></tr>
            </table>
-           @see #Signatureview_clearOnDoubleClick
+           @see #Signatureview_clearOnDoubleTap
            @see #Signatureview_penColor
            @see #Signatureview_penMaxWidth
            @see #Signatureview_penMinWidth
-           @see #Signatureview_velocityFilterWeight
+           @see #Signatureview_speedimpressionWeight
          */
         public static final int[] Signatureview = {
             0x7f0100f4, 0x7f0100f5, 0x7f0100f6, 0x7f0100f7,
             0x7f0100f8
         };
         /**
-          <p>This symbol is the offset where the {@link net.appitiza.android.app.signatureapp.R.attr#clearOnDoubleClick}
+          <p>This symbol is the offset where the {@link net.appitiza.android.app.signatureapp.R.attr#clearOnDoubleTap}
           attribute's value can be found in the {@link #Signatureview} array.
 
 
@@ -8622,9 +8629,9 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name net.appitiza.android.app.signatureapp:clearOnDoubleClick
+          @attr name net.appitiza.android.app.signatureapp:clearOnDoubleTap
         */
-        public static final int Signatureview_clearOnDoubleClick = 4;
+        public static final int Signatureview_clearOnDoubleTap = 4;
         /**
           <p>This symbol is the offset where the {@link net.appitiza.android.app.signatureapp.R.attr#penColor}
           attribute's value can be found in the {@link #Signatureview} array.
@@ -8673,7 +8680,7 @@ containing a value of this type.
         */
         public static final int Signatureview_penMinWidth = 0;
         /**
-          <p>This symbol is the offset where the {@link net.appitiza.android.app.signatureapp.R.attr#velocityFilterWeight}
+          <p>This symbol is the offset where the {@link net.appitiza.android.app.signatureapp.R.attr#speedimpressionWeight}
           attribute's value can be found in the {@link #Signatureview} array.
 
 
@@ -8683,9 +8690,9 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name net.appitiza.android.app.signatureapp:velocityFilterWeight
+          @attr name net.appitiza.android.app.signatureapp:speedimpressionWeight
         */
-        public static final int Signatureview_velocityFilterWeight = 3;
+        public static final int Signatureview_speedimpressionWeight = 3;
         /** Attributes that can be used with a Spinner.
            <p>Includes the following attributes:</p>
            <table>

@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\layout\\tools.xml",
         "source": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\layout\\tools.xml"
+    },
+    {
+        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",

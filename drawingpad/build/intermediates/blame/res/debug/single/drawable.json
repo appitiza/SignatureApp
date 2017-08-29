@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
         "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
@@ -20,12 +20,12 @@
         "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\ahammed.hafees\\.android\\build-cache\\8a2d19ddf260d8d12cf62d72175d6c725986ed90\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "E:\\OpenCv\\SignatureApp\\drawingpad\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
