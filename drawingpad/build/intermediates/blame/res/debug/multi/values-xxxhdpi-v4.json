@@ -11,55 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 101,
-                    "endColumn": 46,
-                    "endOffset": 143
-                },
-                "from": {
-                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 148,
-                    "endColumn": 50,
-                    "endOffset": 194
-                },
-                "from": {
                     "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 105,
-                        "endColumn": 50,
-                        "endOffset": 151
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\projects\\SignatureApp\\drawingpad\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxxhdpi-v4\\values-xxxhdpi-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 45,
-                    "endOffset": 96
-                },
-                "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -78,7 +30,7 @@
                     "endOffset": 143
                 },
                 "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -97,7 +49,7 @@
                     "endOffset": 194
                 },
                 "from": {
-                    "file": "D:\\projects\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
+                    "file": "E:\\OpenCv\\SignatureApp\\drawingpad\\src\\main\\res\\values-xxxhdpi\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
