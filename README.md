@@ -25,7 +25,8 @@ dependencies {
 #### To use the signaturepad
 Copy the below code to use signnaturepad
 
-```<net.appitiza.android.drawingpad.drawpad.views.SignatureView
+```
+<net.appitiza.android.drawingpad.drawpad.views.SignatureView
         android:id="@+id/signature_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -47,7 +48,8 @@ With above code you can adjust the pen width
 #### To use the drawingpad
 Copy the below code to use drawingpad
 
-```<net.appitiza.android.drawingpad.drawpad.views.DrawingView
+```
+<net.appitiza.android.drawingpad.drawpad.views.DrawingView
         android:id="@+id/drawing_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
