@@ -1,12 +1,30 @@
 # Signature/Drawing pad
 
 powerful and easy to integrate Signature/Drawing pad library for Android.
+## Getting Started
+You can use this library either by downloading the drawingpad module or by importing it directly as shown below.
+## Import
+**Sptep 1.** Add jitpack to your root `build.gradle`:
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+**Step 2.** Add the dependency:
+```gradle
+dependencies {
+     implementation 'com.github.appitiza:SignatureApp:-SNAPSHOT'
+}
+```
+## ScreenShot
 
 ![Alt Text](https://github.com/appitiza/SignatureApp/blob/master/images/drawing.gif)
 ![Alt Text](https://github.com/appitiza/SignatureApp/blob/master/images/signature.gif)
-## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+[Demo Download](https://github.com/appitiza/SignatureApp/blob/master/apk/signatureapp.apk)
 
 ### Prerequisites
 
