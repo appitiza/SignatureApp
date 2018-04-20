@@ -6,8 +6,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="@dimen/default_padding"
-    tools:context="net.appitiza.android.app.signatureapp.SelectOptionActivity">
+    android:padding="@dimen/default_padding">
 
     <Button
         android:id="@+id/btn_signaturepad"

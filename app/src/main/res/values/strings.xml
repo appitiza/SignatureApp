@@ -2,4 +2,5 @@
     <string name="app_name">SignatureApp</string>
     <string name="signaturepad">Signature Pad</string>
     <string name="drawingpad">Drawing Pad</string>
+    <string name="preview">Preview</string>
 </resources>

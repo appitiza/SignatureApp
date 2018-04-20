@@ -14,7 +14,7 @@ public class DrawingPadActivity extends AppCompatActivity implements DrawingView
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drawing_pad);
         this.mDrawingView = (DrawingView) findViewById(R.id.drawing_view);
-        this.mIvDrawing = (ImageView) findViewById(R.id.iv_sign);
+        this.mIvDrawing = (ImageView) findViewById(R.id.iv_preview);
         this.mDrawingView.setOnDrawingListener(this);
     }
 

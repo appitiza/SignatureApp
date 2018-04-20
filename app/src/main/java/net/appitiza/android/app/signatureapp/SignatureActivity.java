@@ -15,7 +15,7 @@ public class SignatureActivity extends AppCompatActivity implements SignatureVie
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signature);
         this.mSignatureView = (SignatureView) findViewById(R.id.signature_view);
-        this.mIvSign = (ImageView) findViewById(R.id.iv_sign);
+        this.mIvSign = (ImageView) findViewById(R.id.iv_preview);
         this.mSignatureView.setOnSignedListener(this);
     }
 

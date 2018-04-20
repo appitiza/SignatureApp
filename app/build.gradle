@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    buildToolsVersion '27.0.3'
     defaultConfig {
         applicationId "net.appitiza.android.app.signatureapp"
         minSdkVersion 14
@@ -28,8 +28,8 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile project(path: ':drawingpad')
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.2'
-    testCompile 'junit:junit:4.12'
+   /* compile project(path: ':drawingpad')*/
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.github.appitiza:SignatureApp:-SNAPSHOT'
+    testImplementation 'junit:junit:4.12'
 }

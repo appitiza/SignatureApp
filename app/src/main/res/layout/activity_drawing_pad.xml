@@ -3,16 +3,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="net.appitiza.android.app.signatureapp.MainActivity">
+    android:orientation="vertical">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preview"/>
     <ImageView
-        android:id="@+id/iv_sign"
+        android:id="@+id/iv_preview"
         android:layout_width="match_parent"
         android:contentDescription="@string/app_name"
         android:layout_height="0dp"
         android:layout_weight="1" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/drawingpad"/>
     <net.appitiza.android.drawingpad.drawpad.views.DrawingView
         android:id="@+id/drawing_view"
         android:layout_width="match_parent"
