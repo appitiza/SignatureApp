@@ -2,7 +2,7 @@
 
 powerful and easy to integrate Signature/Drawing pad library for Android.
 ## Getting Started
-You can use this library either by downloading the drawingpad module or by importing it directly as shown below.
+You can use this library either by downloading the drawing pad module or by importing it directly as shown below.
 ## Import
 **Sptep 1.** Add jitpack to your root `build.gradle`:
 ```gradle
@@ -37,13 +37,13 @@ Copy the below code to use signnaturepad
         attr:speedimpressionWeight=".1" />
 ```
 
-You can use attributes to adjust the fetures of signaturepad
+You can use attributes to adjust the features of signature pad
 Example 
 ```
         attr:penMaxWidth="9dp"
         attr:penMinWidth="5dp"
 ```
-With above code you can adjust the pen width
+With above code, you can adjust the pen width
 
 #### To use the drawingpad
 Copy the below code to use drawingpad
@@ -65,7 +65,7 @@ Copy the below code to use drawingpad
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
